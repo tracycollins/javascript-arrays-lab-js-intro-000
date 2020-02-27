@@ -13,6 +13,10 @@ function prependKitten(kitten) {
   return [kitten].concat(kittens)
 }
 
+function prependKitten(kitten) {
+  return kittens.slice(-1)
+}
+
 function destructivelyPrependKitten(kitten) {
   return kittens.unshift(kitten)
 }
