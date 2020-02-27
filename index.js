@@ -9,6 +9,10 @@ function appendKitten(kitten) {
   return kittens.concat([kitten])
 }
 
+function prependKitten(kitten) {
+  return [kitten].concat(kittens)
+}
+
 function destructivelyPrependKitten(kitten) {
   return kittens.unshift(kitten)
 }
